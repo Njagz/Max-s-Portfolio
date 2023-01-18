@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+    --main-color:orange;
+    --sec-color:rgba(14, 13, 13, 0.801);
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Nunito, 'sans-serif';
+}
+
+.main {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    
+}
+/* --------navbar css---------- */
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+
+.navbar .logo img{
+width: 35px;
+height: 35px;
+border-radius: 100%;
+
+}
+
+.navbar .logo h3 {
+    float: right;
+    margin-left: 10px;
+    line-height: 1.1;
+}
+
+.navbar .logo h3 span{
+ font-size: 0.85em;
+}
+
+.navbar .nav ul{
+    display: flex;
+
+}
+
+.navbar .nav ul li{
+ margin:0 12px;
+ list-style: none;
+}
+
+.navbar .nav ul li a{
+text-decoration: none;
+color: var(--sec-color);
+}
+
+.fa-angle-down{
+    color:#ddd;
+    font-size: 0.85em;
+}
+
+.social-icons a{
+margin-left: 8px;
+margin-right:6px;
+}
+
+.social-icons .search{
+    display: inline-block;
+    padding-left: 16px;
+    border-left: 1px solid #ddd;
+
+}
+
+.fa-brands{
+color:var(--sec-color);
+
+}
+
+
+
+
+
+
+
+
+
+/* -------end of navbar css ---------*/
