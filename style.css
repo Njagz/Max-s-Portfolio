@@ -144,11 +144,55 @@ color:var(--sec-color);
 
 
 }
-
-
-
-
-
-
-
 /* -------end of navbar css ---------*/
+
+
+/* -------Hero CSS---------*/
+.outer-section{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+.hero-section{
+    background-image: url(/assets/port-bg-img2.jpg);
+    background-position: center;
+    min-height: 500px;
+    position: relative;
+
+}
+
+.hero-descrpt{
+    position: absolute;
+    left:50%;
+    top:30%;
+
+}
+.hero-head{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    padding-bottom: 20px;
+
+}
+.hero-body{
+    font-size:0.9rem;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.primary-action, .sec-action{
+    color: #f4f4f4;
+    padding:8px 30px;
+    border: none;
+    border-radius: 3px;;
+
+}
+.primary-action{
+background-color: var(--main-color);
+}
+
+.sec-action{
+    background-color: var(--sec-color);
+    
+}
+
