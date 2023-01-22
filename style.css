@@ -158,13 +158,16 @@ color:var(--sec-color);
     background-position: center;
     min-height: 500px;
     position: relative;
-
+    border-radius: 10px;
+    z-index: 2;
+    box-shadow: 0 0 5px var(--sec-color);
 }
 
 .hero-descrpt{
     position: absolute;
     left:50%;
     top:30%;
+    
 
 }
 .hero-head{
@@ -196,3 +199,17 @@ background-color: var(--main-color);
     
 }
 
+/*-------- media queries------------ */
+@media (max-width:1000px){
+    .outer-section{
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .outer-section{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    
+}
