@@ -160,7 +160,7 @@ color:var(--sec-color);
     position: relative;
     border-radius: 10px;
     z-index: 2;
-    box-shadow: 0 0 5px var(--sec-color);
+    box-shadow: 0px 0px 3px #000;
 }
 
 .hero-descrpt{
@@ -212,4 +212,70 @@ background-color: var(--main-color);
         padding-right: 20px; 
     }
     
+}
+
+
+/*--------About -css ------------ */
+.about{
+    background-image: url(/assets/port-bg-img4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 400px;
+    display: flex;
+    color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -80px;
+}
+
+.about .about-max::after{
+    content: "";
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    right:50%;
+    bottom:30%;
+
+
+}
+.about .about-max::after{
+  background: url("assets/thumbnail.png");
+}
+
+.about .about-max .vertical {
+
+font-size: 0.8rem;
+color:#fafafaee;
+}
+
+.about .about-max  h3{
+font-size: 1.5rem;
+padding-bottom: 20px;
+}
+
+.about .about-max .projects{
+padding:8px 20px;
+border:none;
+outline: none;
+background-color: var(--main-color);
+color: #f4f4f4;
+border-radius: 5px;
+}
+.about .about-cv{
+    margin-left: 300px;
+    line-height: 1.8;
+}
+.about .about-cv p{
+    font-size: 0.9rem;
+}
+.about .about-cv p strong {
+    margin-right: 5px;
+    font-size: 0.85rem;
+}
+
+.about-max, .about-cv{
+   padding-top: 80px;
 }
